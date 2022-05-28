@@ -1,0 +1,57 @@
+*{
+    font-family: roboto;
+    color:black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDDDD;
+    height: 75vh;
+    width: 30%;
+}
+
+#principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+}
+
+input{
+    background-color: #AAAAAA;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: text;
+}
+
+input::placeholder{
+    color:black;
+    font-size: 18px;
+}
+
+button{
+    background-color: #AAAAAA;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
